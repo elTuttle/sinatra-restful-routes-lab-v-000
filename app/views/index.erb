@@ -1,8 +1,8 @@
 <h1>Recipes</h1>
 <% @recipes.each do |recipe| %>
   <div class="course">
-    <p>Name: <%= ship.name %></p><br>
-    <p>Type: <%= ship.type %></p><br>
-    <p>Booty: <%= ship.booty %></p><br>
+    <p>Name: <%= recipe.name %></p><br>
+    <p>Ingredients: <%= recipe.ingredients %></p><br>
+    <p>Cook Time: <%= recipe.cook_time %></p><br>
   </div><br>
 <% end %>

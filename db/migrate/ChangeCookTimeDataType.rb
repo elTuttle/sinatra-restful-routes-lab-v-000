@@ -1,4 +1,4 @@
-class CreateRecipes < ActiveRecord::Migration
+class ChangeCookTimeDataType < ActiveRecord::Migration
   def change
     change_column :recipes, :cook_time, :string
   end
